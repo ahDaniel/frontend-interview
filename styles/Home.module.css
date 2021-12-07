@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.loadImages {
+  background: green;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.coingImage {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.imageWithTitle {
+  flex-direction: column;
+}
+
+.title {
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  width: 100%;
+  align-items: center;
+  float: left; 
+  justify-content: center;
+}
+
+.gallery div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  flex: 0 0 33.333333%;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  background: aqua;
+}
